@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+
+}
+
+h1 {
+  font-family: 'Chango', cursive;
+  position:relative;
+  top:30%;
+  font-size: 3%;
+  line-height: 1.5;
+  padding-bottom: 10%;
+  position:relative;
+  left:10%;
+}
+
+.container-fluid{
+  padding: .5% 15%;
+  background-color: #000;
+  color: #fff;
+}
+#title {
+  background-color: #ff4c68;
+}
+
+
+.title-image{
+  padding-top:10%;
+  padding-left: 15%;
+  margin-bottom: 10%;
+  width:50%;
+  transform: rotate(25deg);
+  filter: drop-shadow(20px 10px 25px  black);
+  position:relative;
+  left:50px;
+}
+#features{
+  padding: 7% 15%;
+}
+.feature-box{
+  text-align: center;
+  padding:5%;
+}
+.icon{
+  color: #ef8172;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  padding: 4% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  font-family: 'Redressed', cursive;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+
+}
+.press-image{
+  width:15%;
+  padding-bottom: 3%;
+  padding-right: 2%;
+}
+.card-header, .card-body{
+  color: #000;
+}
+#pricing{
+  text-align: center;
+  padding-top: 10%;
+}
+#cta,#footer{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 2%;
+}
+@media (max-width:1028px) {
+  
+}
